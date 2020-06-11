@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4bbb31b-f510-4061-b558-bddc47865eb0" name="Default Changelist" comment="A repo that masks the origin of this HSBC interview question">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documents/HSBC_exercise.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documents/HSBC_exercise_architecture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documents/file.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documents/hsbc-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSBC_exercise_architecture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cp2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/us/fiet/interview/cotton_ben/AlgoComplexEventProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/us/fiet/interview/cotton_ben/EventACK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/us/fiet/interview/cotton_ben/EventBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/us/fiet/interview/cotton_ben/EventBusHub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/us/fiet/interview/cotton_ben/EventBusListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/us/fiet/interview/cotton_ben/FilteredEventBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/us/fiet/interview/cotton_ben/PubTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/us/fiet/interview/cotton_ben/PublisherFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/us/fiet/interview/cotton_ben/SubTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/us/fiet/interview/cotton_ben/SubscriberFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/us/fiet/interview/cotton_ben/demo/HSBC_EXERCISE_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsbc/us/fiet/interview/cotton_ben/demo/HSBC_EXERCISE_2_PLUS_EXTRA_CREDIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hsbc/us/fiet/interview/cotton_ben/AlgoComplexEventProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hsbc/us/fiet/interview/cotton_ben/EventACKTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hsbc/us/fiet/interview/cotton_ben/EventBusHubTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hsbc/us/fiet/interview/cotton_ben/EventBusListenerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hsbc/us/fiet/interview/cotton_ben/EventBusTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hsbc/us/fiet/interview/cotton_ben/FilteredEventBlockingQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hsbc/us/fiet/interview/cotton_ben/HSBC_EXERCISE_1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hsbc/us/fiet/interview/cotton_ben/HSBC_EXERCISE_2_PLUS_EXTRA_CREDITTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hsbc/us/fiet/interview/cotton_ben/PubTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hsbc/us/fiet/interview/cotton_ben/PublisherFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hsbc/us/fiet/interview/cotton_ben/ReflexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hsbc/us/fiet/interview/cotton_ben/ReflexTest1PubNSubsSingleThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hsbc/us/fiet/interview/cotton_ben/ReflexTestNxPubNxSubSingleThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hsbc/us/fiet/interview/cotton_ben/SubTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hsbc/us/fiet/interview/cotton_ben/SubscriberFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HSBC-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2020-06-09T09-05-59_380-jvmRun1.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2020-06-09T09-09-43_213-jvmRun1.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2020-06-09T10-05-08_729-jvmRun1.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.hsbc.us.fiet.interview.cotton_ben.AlgoComplexEventProcessorTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.hsbc.us.fiet.interview.cotton_ben.EventACKTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.hsbc.us.fiet.interview.cotton_ben.EventBusHubTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.hsbc.us.fiet.interview.cotton_ben.EventBusListenerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.hsbc.us.fiet.interview.cotton_ben.EventBusTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.hsbc.us.fiet.interview.cotton_ben.FilteredEventBlockingQueueTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.hsbc.us.fiet.interview.cotton_ben.HSBC_EXERCISE_1Test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.hsbc.us.fiet.interview.cotton_ben.HSBC_EXERCISE_2_PLUS_EXTRA_CREDITTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.hsbc.us.fiet.interview.cotton_ben.PubTaskTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.hsbc.us.fiet.interview.cotton_ben.PublisherFactoryTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.hsbc.us.fiet.interview.cotton_ben.ReflexTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.hsbc.us.fiet.interview.cotton_ben.SubTaskTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.hsbc.us.fiet.interview.cotton_ben.SubscriberFactoryTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.hsbc.us.fiet.interview.cotton_ben.AlgoComplexEventProcessorTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.hsbc.us.fiet.interview.cotton_ben.EventACKTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.hsbc.us.fiet.interview.cotton_ben.EventBusHubTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.hsbc.us.fiet.interview.cotton_ben.EventBusListenerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.hsbc.us.fiet.interview.cotton_ben.EventBusTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.hsbc.us.fiet.interview.cotton_ben.FilteredEventBlockingQueueTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.hsbc.us.fiet.interview.cotton_ben.HSBC_EXERCISE_1Test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.hsbc.us.fiet.interview.cotton_ben.HSBC_EXERCISE_2_PLUS_EXTRA_CREDITTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.hsbc.us.fiet.interview.cotton_ben.PubTaskTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.hsbc.us.fiet.interview.cotton_ben.PublisherFactoryTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.hsbc.us.fiet.interview.cotton_ben.ReflexTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.hsbc.us.fiet.interview.cotton_ben.SubTaskTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.hsbc.us.fiet.interview.cotton_ben.SubscriberFactoryTest.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dBC9Y10QDcqMXVYcA8eW8tBV7b" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+
+  <component name="RunManager">
+    <configuration name="HSBC_EXERCISE_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hsbc.us.fiet.interview.cotton_ben.demo.HSBC_EXERCISE_1" />
+      <module name="HSBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hsbc.us.fiet.interview.cotton_ben.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HSBC_EXERCISE_1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4bbb31b-f510-4061-b558-bddc47865eb0" name="Default Changelist" comment="" />
+      <created>1591888948159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591888948159</updated>
+      <workItem from="1591888952448" duration="2414000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="A repo that masks the origin of this HSBC interview question" />
+    <option name="LAST_COMMIT_MESSAGE" value="A repo that masks the origin of this HSBC interview question" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591892496465">
+      <screen x="0" y="0" width="1366" height="687" />
+    </state>
+    <state x="137" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.687@0.0.1366.687" timestamp="1591892496465" />
+    <state x="441" y="212" width="486" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591892506415">
+      <screen x="0" y="0" width="1366" height="687" />
+    </state>
+    <state x="441" y="212" width="486" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.687@0.0.1366.687" timestamp="1591892506415" />
+    <state x="206" y="0" key="CommitChangelistDialog2" timestamp="1591889165480">
+      <screen x="0" y="0" width="1366" height="687" />
+    </state>
+    <state x="206" y="0" key="CommitChangelistDialog2/0.0.1366.687@0.0.1366.687" timestamp="1591889165480" />
+    <state width="1323" height="56" key="GridCell.Tab.0.bottom" timestamp="1591889509670">
+      <screen x="0" y="0" width="1366" height="687" />
+    </state>
+    <state width="1323" height="56" key="GridCell.Tab.0.bottom/0.0.1366.687@0.0.1366.687" timestamp="1591889509670" />
+    <state width="1323" height="56" key="GridCell.Tab.0.center" timestamp="1591889509670">
+      <screen x="0" y="0" width="1366" height="687" />
+    </state>
+    <state width="1323" height="56" key="GridCell.Tab.0.center/0.0.1366.687@0.0.1366.687" timestamp="1591889509670" />
+    <state width="1323" height="56" key="GridCell.Tab.0.left" timestamp="1591889509670">
+      <screen x="0" y="0" width="1366" height="687" />
+    </state>
+    <state width="1323" height="56" key="GridCell.Tab.0.left/0.0.1366.687@0.0.1366.687" timestamp="1591889509670" />
+    <state width="1323" height="56" key="GridCell.Tab.0.right" timestamp="1591889509670">
+      <screen x="0" y="0" width="1366" height="687" />
+    </state>
+    <state width="1323" height="56" key="GridCell.Tab.0.right/0.0.1366.687@0.0.1366.687" timestamp="1591889509670" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1591889425553">
+      <screen x="0" y="0" width="1366" height="687" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.687@0.0.1366.687" timestamp="1591889425553" />
+  </component>
+</project>
