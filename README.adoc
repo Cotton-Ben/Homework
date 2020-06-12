@@ -72,6 +72,7 @@ NOTE:  submitted solution requires local environment have
 To do:
 
 #UserID=Cotton-Ben Password=Onefour9!
+
 buddy@IdeaPad> git clone https://cotton-ben@github.com/Cotton-Ben/HSBC.git
 
 buddy@IdeaPad> cd  HSBC
@@ -79,6 +80,7 @@ buddy@IdeaPad> cd  HSBC
 buddy@IdeaPad> mvn dependency:build-classpath -Dmdep.outputFile=cp.txt install -DskipTests
 
 buddy@IdeaPad> #satisfies HSBC exercise to have Publisher & Subscriber
+
 buddy@IdeaPad> #produce/consume EventBus actions on Same Thread
 
 buddy@IdeaPad> java -cp \`cat cp.txt`:./target/classes/ com.hsbc.us.fiet.interview.cotton_ben.demo.HSBC_EXERCISE_1
@@ -86,7 +88,9 @@ buddy@IdeaPad> java -cp \`cat cp.txt`:./target/classes/ com.hsbc.us.fiet.intervi
 buddy@IdeaPad> #NOTE: you must manually `kill -9` the JVM process (the SubscriberFactory on q.poll())
 
 buddy@IdeaPad> #satisfies HSBC exercise (and extra credit) to have Publisher & Subscriber
+
 buddy@IdeaPad> #produce/consume EventBus actions on different Threads.
+
 buddy@IdeaPad> #Extra Credit = AlgoCEP impl (see PPTX screenshot: impl coalesece Px ticks )
 
 buddy@IdeaPad> java -cp \`cat cp.txt`:./target/classes/ com.hsbc.us.fiet.interview.cotton_ben.demo.HSBC_EXERCISE_2_PLUS_EXTRA_CREDIT
@@ -95,11 +99,6 @@ buddy@IdeaPad> #NOTE: you must manually '`kill -9`' the JVM process (the Subscri
 
 
 ------------------------- deliverd EventBus.java interface ------------------
-
-package com.hsbc.us.fiet.interview.cotton_ben;
-
-
-import java.util.concurrent.BlockingQueue;
 
 public interface EventBus {
 
@@ -127,9 +126,6 @@ public interface EventBus {
 
     BlockingQueue<?> getTheTopic();
 
-
+    List<?> getTheSubsciberList();
 }
-
-
-
 
