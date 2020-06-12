@@ -31,4 +31,5 @@ public interface EventBus {
     BlockingQueue<?> getTheTopic();
 
     List<?> getTheSubsciberList();
+
 }
