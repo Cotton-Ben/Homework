@@ -80,15 +80,10 @@ class AlgoComplexEventProcessorTest<T> {
         //forgive the raw usage of these collection references construction (w/o interface) ...
         //would normally refactor, and inject via a factory Spring join-point
         final FilteredEventBlockingQueue s1 = new FilteredEventBlockingQueue(10);
-        final FilteredEventBlockingQueue s2 = new FilteredEventBlockingQueue(10);
-        final FilteredEventBlockingQueue s3 = new FilteredEventBlockingQueue(10);
-        final FilteredEventBlockingQueue s4 = new FilteredEventBlockingQueue(10);
 
-        theEB.addSubscriber(s1);
-        theEB.addSubscriber(s2);
-        theEB.addSubscriberFiltered(StringBuilder.class, s3);
-        theEB.addSubscriberFiltered(AlgoComplexEventProcessor.class, s4);
-        assertTrue(theEB.getTheSubsciberList().size() == 4);
+
+        theEB.addSubscriberFiltered(AlgoComplexEventProcessor.class, s1);
+        assertTrue(theEB.getTheSubsciberList().size() == 1);
 
 
         final Thread pubFactoryThread = new Thread(pF);

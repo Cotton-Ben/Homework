@@ -28,6 +28,13 @@ public class AlgoComplexEventProcessor implements EventACK {
         this.mostRecentTick = System.currentTimeMillis();
     }
 
+    /**
+     * Ben.Cotton@rutgers.edu
+     * <p>
+     * NOTE: purposefully not synchronized , based on the assumption that LIFO 'last writer wins'
+     * is tolerant that potential  concurrent ACK 'collisions' do NOT cause inconsistency.
+     */
+
     @Override
     public EventACK acknowledgeEvent() {
         this.px = pxStack.empty() ? this.px : pxStack.pop();  //commit to the most recent px
@@ -35,37 +42,47 @@ public class AlgoComplexEventProcessor implements EventACK {
         do {
             System.out.println(
                     "t=[" + Thread.currentThread() + "] " +
-                    "AlgoComplexEventProcessor." +
-                    "acknowledgeEvent() of stackedPx=[" + stackedPx + "] consumption.");
+                            "AlgoComplexEventProcessor." +
+                            "acknowledgeEvent() of stackedPx=[" + stackedPx + "] consumption.");
         } while (!pxStack.empty() && (stackedPx = pxStack.pop()) > 0);
         if (this.px > 0.00) {
             System.out.println(
                     "t=[" + Thread.currentThread() + "] " +
-                    "AlgoComplexEventProcessor instance=[" + this.toString() +"] "  +
-                    "acknowledgeEvent() of Tick Px=[" + this.px + "] consumption.");
+                            "AlgoComplexEventProcessor instance=[" + this.toString() + "] " +
+                            "acknowledgeEvent() of Tick Px=[" + this.px + "] consumption.");
         } else {
             System.out.println(
                     "t=[" + Thread.currentThread() + "] " +
-                    "AlgoComplexEventProcessor instance=[" + this.toString() +"] "  +
-                    "acknowledgeEvent() of a algo has FINISHED consumption!");
+                            "AlgoComplexEventProcessor instance=[" + this.toString() + "] " +
+                            "acknowledgeEvent() of a algo has FINISHED consumption!");
         }
         return this;
     }
 
+    /**
+     * Ben.Cotton@rutgers.edu
+     * <p>
+     * NOTE: purposefully not synchronized , based on the assumption that LIFO 'last writer wins'
+     * is tolerant that potential  concurrent tick 'collisions' do NOT cause inconsistency.
+     *
+     * @param _px
+     * @return
+     * @throws InterruptedException
+     */
     public AlgoComplexEventProcessor tick(final double _px) throws InterruptedException {
         this.mostRecentTick = System.currentTimeMillis();
-        this.filterKeyToken = "ORIGINAL_PX_TICK("+((_px >= 0) ? _px : this.px) + ")";
+        this.filterKeyToken = "ORIGINAL_PX_TICK(" + ((_px >= 0) ? _px : this.px) + ")";
 
         if (_px >= 0.00) {
             pxStack.push(_px);
             System.out.println(
                     "t=[" + Thread.currentThread() + "] " +
-                    "AlgoComplexEventProcessor.tick("+_px+") sees PUBLISHED Tick Px=[" + _px + "] "
+                            "AlgoComplexEventProcessor.tick(" + _px + ") sees PUBLISHable Tick Px=[" + _px + "] "
             );
         } else {
             System.out.println(
                     "t=[" + Thread.currentThread() + "] " +
-                    "AlgoComplexEventProcessor.tick("+_px+") winding down publishing Px for an algo.");
+                            "AlgoComplexEventProcessor.tick(" + _px + ") winding down publishing Px for an algo.");
         }
         return (this);
     }
@@ -82,11 +99,13 @@ public class AlgoComplexEventProcessor implements EventACK {
 
     @Override
     public Class<?> producedACK(EventBus _pub) {
+
         return this.getClass();//stub out ACK/NACK impl
     }
 
     @Override
     public Class<?> consumedACK(EventBus _sub) {
+
         return this.getClass(); //stub out ACK/NACK impl
     }
 

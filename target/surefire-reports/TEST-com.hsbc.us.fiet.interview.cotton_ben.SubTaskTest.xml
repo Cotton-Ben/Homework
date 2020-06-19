@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.hsbc.us.fiet.interview.cotton_ben.SubTaskTest" time="0.003" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.hsbc.us.fiet.interview.cotton_ben.SubTaskTest" time="0.001" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,30 +17,29 @@
     <property name="os.name" value="Windows 10"/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="C:\java\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\buddy\AppData\Local\Temp\surefire4823725368326229031\surefirebooter1404646737319650422.jar C:\Users\buddy\AppData\Local\Temp\surefire4823725368326229031 2020-06-11T11-31-02_651-jvmRun1 surefire4453344298731249624tmp surefire_08405215723855810965tmp"/>
+    <property name="sun.boot.library.path" value="C:\Java\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\buddy\AppData\Local\Temp\surefire1277755340503793744\surefirebooter4089898133482251339.jar C:\Users\buddy\AppData\Local\Temp\surefire1277755340503793744 2020-06-15T08-45-12_944-jvmRun1 surefire6311750246012291443tmp surefire_05550274831938829193tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\buddy\IdeaProjects\Homework\target\test-classes;C:\Users\buddy\IdeaProjects\Homework\target\classes;C:\Users\buddy\.m2\repository\org\fitnesse\fitnesse\20200501\fitnesse-20200501.jar;C:\Users\buddy\.m2\repository\org\htmlparser\htmlparser\2.1\htmlparser-2.1.jar;C:\Users\buddy\.m2\repository\org\htmlparser\htmllexer\2.1\htmllexer-2.1.jar;C:\Users\buddy\.m2\repository\org\apache\velocity\velocity-engine-core\2.2\velocity-engine-core-2.2.jar;C:\Users\buddy\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\buddy\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\buddy\.m2\repository\org\slf4j\slf4j-jdk14\1.7.25\slf4j-jdk14-1.7.25.jar;C:\Users\buddy\.m2\repository\org\json\json\20190722\json-20190722.jar;C:\Users\buddy\.m2\repository\com\googlecode\java-diff-utils\diffutils\1.3.0\diffutils-1.3.0.jar;C:\Users\buddy\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\buddy\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\buddy\.m2\repository\org\apache\activemq\activemq-core\5.7.0\activemq-core-5.7.0.jar;C:\Users\buddy\.m2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1.1\geronimo-jms_1.1_spec-1.1.1.jar;C:\Users\buddy\.m2\repository\org\apache\activemq\kahadb\5.7.0\kahadb-5.7.0.jar;C:\Users\buddy\.m2\repository\org\apache\activemq\protobuf\activemq-protobuf\1.1\activemq-protobuf-1.1.jar;C:\Users\buddy\.m2\repository\org\fusesource\mqtt-client\mqtt-client\1.3\mqtt-client-1.3.jar;C:\Users\buddy\.m2\repository\org\fusesource\hawtdispatch\hawtdispatch-transport\1.11\hawtdispatch-transport-1.11.jar;C:\Users\buddy\.m2\repository\org\fusesource\hawtdispatch\hawtdispatch\1.11\hawtdispatch-1.11.jar;C:\Users\buddy\.m2\repository\org\fusesource\hawtbuf\hawtbuf\1.9\hawtbuf-1.9.jar;C:\Users\buddy\.m2\repository\org\apache\geronimo\specs\geronimo-j2ee-management_1.1_spec\1.0.1\geronimo-j2ee-management_1.1_spec-1.0.1.jar;C:\Users\buddy\.m2\repository\org\springframework\spring-context\3.0.7.RELEASE\spring-context-3.0.7.RELEASE.jar;C:\Users\buddy\.m2\repository\org\springframework\spring-aop\3.0.7.RELEASE\spring-aop-3.0.7.RELEASE.jar;C:\Users\buddy\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\buddy\.m2\repository\org\springframework\spring-beans\3.0.7.RELEASE\spring-beans-3.0.7.RELEASE.jar;C:\Users\buddy\.m2\repository\org\springframework\spring-core\3.0.7.RELEASE\spring-core-3.0.7.RELEASE.jar;C:\Users\buddy\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\buddy\.m2\repository\org\springframework\spring-expression\3.0.7.RELEASE\spring-expression-3.0.7.RELEASE.jar;C:\Users\buddy\.m2\repository\org\springframework\spring-asm\3.0.7.RELEASE\spring-asm-3.0.7.RELEASE.jar;C:\Users\buddy\.m2\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;C:\Users\buddy\.m2\repository\org\jasypt\jasypt\1.9.0\jasypt-1.9.0.jar;C:\Users\buddy\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0-M1\junit-jupiter-5.7.0-M1.jar;C:\Users\buddy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0-M1\junit-jupiter-api-5.7.0-M1.jar;C:\Users\buddy\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\buddy\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\buddy\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0-M1\junit-platform-commons-1.7.0-M1.jar;C:\Users\buddy\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0-M1\junit-jupiter-params-5.7.0-M1.jar;C:\Users\buddy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0-M1\junit-jupiter-engine-5.7.0-M1.jar;C:\Users\buddy\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0-M1\junit-platform-engine-1.7.0-M1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\buddy"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.home" value="C:\java\jre"/>
+    <property name="java.home" value="C:\Java\jre"/>
     <property name="basedir" value="C:\Users\buddy\IdeaProjects\Homework"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="idea.version2020.1.1" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\buddy\AppData\Local\Temp\surefire4823725368326229031\surefirebooter1404646737319650422.jar"/>
-    <property name="sun.boot.class.path" value="C:\java\jre\lib\resources.jar;C:\java\jre\lib\rt.jar;C:\java\jre\lib\sunrsasign.jar;C:\java\jre\lib\jsse.jar;C:\java\jre\lib\jce.jar;C:\java\jre\lib\charsets.jar;C:\java\jre\lib\jfr.jar;C:\java\jre\classes"/>
+    <property name="surefire.real.class.path" value="C:\Users\buddy\AppData\Local\Temp\surefire1277755340503793744\surefirebooter4089898133482251339.jar"/>
+    <property name="sun.boot.class.path" value="C:\Java\jre\lib\resources.jar;C:\Java\jre\lib\rt.jar;C:\Java\jre\lib\sunrsasign.jar;C:\Java\jre\lib\jsse.jar;C:\Java\jre\lib\jce.jar;C:\Java\jre\lib\charsets.jar;C:\Java\jre\lib\jfr.jar;C:\Java\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_241-b07"/>
     <property name="user.name" value="buddy"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.endorsed.dirs" value="C:\java\jre\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Java\jre\lib\endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
@@ -53,11 +52,11 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\java\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Users\buddy\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;."/>
+    <property name="java.library.path" value="C:\Java\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\buddy\apache-maven-3.6.3\bin;C:\Users\buddy\bin;C:\Java\bin;C:\Users\buddy\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\buddy\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Users\buddy\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;C:\Users\buddy\tp8\;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.241-b07"/>
-    <property name="java.ext.dirs" value="C:\java\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="java.ext.dirs" value="C:\Java\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>

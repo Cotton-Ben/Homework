@@ -76,7 +76,7 @@ public class EventBusHub implements EventBus {
             } else {
                 System.out.println(
                         "t=[" + Thread.currentThread() + "]"
-                                + "EventBusHub subscriberL.onEvent() callback: "
+                                + "EventBusHub ignoring subscriberL.onEvent() callback: "
                                 + "subscriber=[" + System.identityHashCode(consumingSub) + "] "
                                 + "NOT INTERESTED "
                                 + "(seeking ["+consumingSub.getEventPattern()+"] "
@@ -101,11 +101,13 @@ public class EventBusHub implements EventBus {
 
     @Override
     public FilteredEventBlockingQueue<Object> getTheTopic() {
+
         return theTopic;
     }
 
     @Override
     public List<?> getTheSubsciberList() {
+
         return theSubsL;
     }
 }
